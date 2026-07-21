@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WildKin | Connect with Nature</title>
+    <title>WildBridge | Connect with Nature</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend:wght@500;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
         h1, h2, .font-display { font-family: 'Lexend', sans-serif; }
@@ -19,25 +20,34 @@
 <!-- Navigation -->
 <nav class="p-6">
     <div class="container mx-auto flex justify-between items-center">
-        <a href="index.html" class="text-2xl font-800 text-forest font-display tracking-tight">WildKin</a>
+        <a href="index.html" class="text-2xl font-800 text-forest font-display tracking-tight">WildBridge</a>
         <div class="flex gap-6">
             <a href="about.html" class="text-forest hover:underline font-medium">About</a>
-            <a href="contact.html" class="text-forest hover:underline font-medium">Contact</a>
+            <a href="contact.html" class="text-forest hover:underline font-medium">Contact/Delete Account</a>
         </div>
     </div>
 </nav>
 
 <!-- Hero Section -->
-<header class="container mx-auto px-6 py-16 text-center">
+<header class="container mx-auto px-6 py-24 text-center rounded-3xl my-8" style="background-image: linear-gradient(rgba(240, 244, 240, 0.85), rgba(240, 244, 240, 0.85)), url('assets/webbg.jpg'), url('assets/webbg2.jpg'), url('assets/webbg3.jpg'); background-size: 100% 100%, 33.33% 100%, 33.33% 100%, 33.33% 100%; background-position: center, left, center, right; background-repeat: no-repeat;">
     <h1 class="text-5xl md:text-7xl font-800 text-forest mb-6">Your Wild Journey Begins Here.</h1>
     <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10">
         Adopt wild animals, build natural habitats, and discover the beauty of Southern California's wilderness in an interactive virtual world.
     </p>
     <div class="flex justify-center gap-4">
-        <button class="bg-forest text-white px-8 py-3 rounded-full font-bold hover:opacity-90 transition">Get the App</button>
-        <button class="border-2 border-forest text-forest px-8 py-3 rounded-full font-bold hover:bg-forest hover:text-white transition">Watch Trailer</button>
+        <button class="bg-forest text-white px-8 py-3 rounded-full font-bold hover:opacity-90 transition">Full Release Coming Soon</button>
     </div>
 </header>
+
+<!-- Intro Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-6 text-center">
+        <div class="w-20 h-1.5 bg-amber-500 mx-auto mb-8"></div>
+        <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            WildKin is a mobile game where players adopt virtual wildlife companions inspired by Southern California species. By caring for animals, restoring habitats, and learning about native wildlife, players gain a greater appreciation for conservation.
+        </p>
+    </div>
+</section>
 
 <!-- Features Section -->
 <section class="bg-white py-20">
@@ -45,15 +55,59 @@
         <div>
             <h2 class="text-3xl font-800 text-forest mb-4">Adopt and Protect</h2>
             <p class="text-lg text-gray-600 mb-6">
-                Start your journey by adopting a virtual wild companion. From elusive mountain lions to playful coastal birds, each animal has its own needs and story.
+                Start your journey by adopting a virtual wild companion. From elusive mountain lions to playful birds, each animal has its own story.
             </p>
             <h2 class="text-3xl font-800 text-forest mb-4">Build Your Sanctuary</h2>
             <p class="text-lg text-gray-600">
-                Use decorations and natural elements to expand your habitats. Inspired by the diverse ecosystems of Southern California, you can recreate everything from sun-drenched chaparrals to serene coastal bluffs.
+                Use decorations and natural elements to expand your habitats. Inspired by the diverse ecosystems of Southern California, you can visit everything from sun-drenched chaparrals to serene coastal bluffs.
             </p>
         </div>
         <div class="bg-gray-200 aspect-video rounded-3xl flex items-center justify-center text-gray-400">
             [App Gameplay Screenshot]
+        </div>
+    </div>
+</section>
+
+<!-- Tutorial Section -->
+<section class="py-20" style="background-image: linear-gradient(rgba(240, 244, 240, 0.75), rgba(240, 244, 240, 0.75)), url('assets/tutbg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-800 text-forest mb-12">How It Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+            <div class="bg-white p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="heart" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-forest mb-2">Adopt</h3>
+                <p class="text-gray-600 text-sm">Adopt a variety of virtual wildlife companions inspired by real Southern California species, and visit them in their habitats.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="utensils" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-forest mb-2">Care</h3>
+                <p class="text-gray-600 text-sm">Feed your wildlife friends and play mini-games to build friendship and earn coins. Level up friendship to earn tokens.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="leaf" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-forest mb-2">Decorate</h3>
+                <p class="text-gray-600 text-sm">Unlock natural decorations for each pet in the shop to build habitats inspired by each animal's ecosystem.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="book-open" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-forest mb-2">Learn</h3>
+                <p class="text-gray-600 text-sm">Discover fun facts and complete your Conservation Journal as you adopt new species and visit their biomes.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="trophy" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-forest mb-2">Collect</h3>
+                <p class="text-gray-600 text-sm">Increase friendship, unlock achievements, and build your collection while learning about the wildlife that calls Southern California home.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -63,7 +117,7 @@
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-4xl font-800 mb-8">More Than Just a Game</h2>
         <p class="text-xl max-w-4xl mx-auto leading-relaxed opacity-90">
-            WildKin is designed to bridge the gap between digital play and environmental stewardship. Through our interactive experience, we teach users about the real-world wild animals of California, fostering a deep appreciation for the natural environments they call home. Our goal is to inspire the next generation of conservationists.
+            Founded by a high school student with a passion for biology and wildlife, our nonprofit is dedicated to inspiring curiosity about nature through interactive education. By introducing people to the unique animals and habitats of Southern California, we hope to foster a deeper appreciation for local wildlife and encourage the protection of the ecosystems we all share.
         </p>
     </div>
 </section>
@@ -73,10 +127,13 @@
     <div class="flex justify-center gap-6 mb-4">
         <a href="privacy.html" class="hover:underline">Privacy Policy</a>
         <a href="terms.html" class="hover:underline">Terms of Service</a>
-        <a href="delete-account.html" class="hover:underline">Delete Account</a>
     </div>
-    <p>&copy; 2023 WildKin. Built to protect and appreciate our wild neighbors.</p>
+    <p>&copy; 2026 WildBridge. Built to protect and appreciate our wild neighbors.</p>
 </footer>
+
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
 </html>

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | WildKin</title>
+    <title>About Us | WildBridge</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend:wght@500;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         h1, h2, .font-display { font-family: 'Lexend', sans-serif; }
-        .bg-nature { background-color: #f0f4f0; }
+        .bg-nature { background-image: linear-gradient(rgba(240, 244, 240, 0.75), rgba(240, 244, 240, 0.75)), url('assets/termsbg.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
         .text-forest { color: #2d4a22; }
         .bg-forest { background-color: #2d4a22; }
     </style>
@@ -17,32 +17,41 @@
 <body class="bg-nature text-gray-800">
     <nav class="p-6">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-800 text-forest font-display tracking-tight">WildKin</a>
+            <a href="index.html" class="text-2xl font-800 text-forest font-display tracking-tight">WildBridge</a>
             <div class="flex gap-4">
                 <a href="index.html" class="text-forest hover:underline font-medium">Home</a>
-                <a href="contact.html" class="text-forest hover:underline font-medium">Contact</a>
+                <a href="contact.html" class="text-forest hover:underline font-medium">Contact/Delete Account</a>
             </div>
         </div>
     </nav>
-    <main class="container mx-auto px-6 py-12">
-        <h1 class="text-4xl font-800 text-forest mb-8">About WildKin & Our Mission</h1>
-        <div class="grid md:grid-cols-2 gap-12">
-            <div>
-                <h2 class="text-2xl font-800 text-forest mb-4">The Nonprofit</h2>
-                <p class="text-lg text-gray-600 mb-6">
-                    WildKin is a nonprofit initiative dedicated to environmental education. Our mission is to use digital technology to reconnect people with the natural world, specifically the unique ecosystems of Southern California.
-                </p>
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+        <h1 class="text-4xl font-800 text-forest mb-8 text-center">About Our Nonprofit</h1>
+
+        <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm space-y-8 leading-relaxed">
+            <div class="space-y-4">
+                <p>Our nonprofit was founded by a high school student with a passion for biology, wildlife, and conservation. Growing up with a love for animals and the outdoors, I wanted to create a project that could make learning about wildlife engaging, accessible, and enjoyable for people of all ages. By combining education with interactive technology, our goal is to inspire curiosity about the incredible species that share our environment and encourage a lifelong appreciation for nature.</p>
+
+                <p>Our work places a special emphasis on the unique wildlife of Southern California. From bobcats and mountain lions to Anna's hummingbirds and California condors, these native species play an important role in our local ecosystems. By introducing players to the animals that live in their own communities, we hope to foster a stronger connection to the environment and encourage responsible stewardship of the natural spaces around us.</p>
             </div>
-            <div>
-                <h2 class="text-2xl font-800 text-forest mb-4">The App</h2>
-                <p class="text-lg text-gray-600 mb-6">
-                    Our app combines virtual pet mechanics with real-world conservation data. By adopting wild animals and building their habitats, users learn about the biodiversity of the chaparral, coastal bluffs, and mountain ranges.
-                </p>
-            </div>
+
+            <section class="border-t border-gray-100 pt-8">
+                <h2 class="text-3xl font-800 text-forest mb-6 text-center">Our Mission</h2>
+                <div class="space-y-4">
+                    <p>We believe that conservation begins with understanding. Our mission is to connect people with wildlife through fun, educational experiences that foster curiosity, empathy, and respect for the natural world. Through interactive games, informative content, and habitat exploration, we strive to make learning about wildlife meaningful, engaging, and accessible to everyone.</p>
+
+                    <p>Our mobile app allows users to adopt virtual wildlife companions inspired by real animals, care for them, explore their natural habitats, and discover fascinating facts about the species they represent. These virtual companions are not intended to represent or replace real animals. Instead, they serve as an engaging way to introduce players to native wildlife, their behaviors, the challenges they face in the wild, and the importance of protecting healthy ecosystems.</p>
+
+                    <p>We are especially passionate about helping people learn about the remarkable wildlife found throughout Southern California and the habitats these species depend on. By highlighting local animals and their ecosystems, we hope to inspire players to appreciate the biodiversity in their own backyards and understand the role each species plays in maintaining a healthy environment.</p>
+
+                    <p>We also recognize the important role that accredited zoos play in wildlife conservation. In addition to providing educational opportunities for millions of visitors each year, many zoos contribute to breeding programs, habitat conservation, scientific research, and the rescue and rehabilitation of injured or endangered wildlife. We hope to work alongside these organizations to encourage more people to visit, learn from, and support the conservation efforts they lead.</p>
+
+                    <p>As our nonprofit grows, we hope to expand our educational resources, develop partnerships with conservation organizations and accredited zoos, and continue creating innovative ways to inspire the next generation of wildlife enthusiasts. We believe that even small moments of learning can spark a lifelong passion for nature, and that by helping people better understand wildlife, we can encourage greater appreciation for the animals, habitats, and ecosystems that make our world so extraordinary.</p>
+                </div>
+            </section>
         </div>
     </main>
     <footer class="py-12 text-center text-gray-500">
-        <p>&copy; 2023 WildKin. <a href="terms.html" class="underline">Terms</a> | <a href="privacy.html" class="underline">Privacy</a></p>
+        <p>&copy; 2026 WildBridge. <a href="terms.html" class="underline">Terms</a> | <a href="privacy.html" class="underline">Privacy</a></p>
     </footer>
 </body>
 </html>
